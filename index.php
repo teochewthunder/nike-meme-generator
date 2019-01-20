@@ -92,6 +92,16 @@ if (isset($_POST["btSubmit"]))
 			    text-align: center;
 			}
 
+			#memeContainer div
+			{
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background-color: rgba(0, 0, 0, 0.5);
+			}
+
 			@media print 
 			{
 			    #formContainer, #pnlMessage
@@ -131,8 +141,10 @@ if (isset($_POST["btSubmit"]))
         </div>
 
         <div id="memeContainer">
-        	<p style="margin-top:50%"><?php echo $line1;?><br /><?php echo $line2;?></p>
-        	<p style="margin-top:30%"><img src="nikelogo.png"> <?php echo $slogan;?></p>
+        	<div>
+	        	<p style="margin-top:50%"><?php echo $line1;?><br /><?php echo $line2;?></p>
+	        	<p style="margin-top:30%"><img src="nikelogo.png"> <?php echo $slogan;?></p>
+        	</div>
         </div>
 	</body>
 </html>
