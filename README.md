@@ -12,3 +12,6 @@ Upon a POST, the form gets the new first line, second line and slogan. Then it p
 
 *Note*
 This does not work in Safari's earlier versions. While the upload performs just fine. the image is not rendered in grayscale.
+
+## Fix
+Added a div with a translucent black background to increase contrast.
