@@ -1,6 +1,6 @@
 # Nike Meme Generator
 
-This little app uses PHP for file upload. The details are similar to the repository in [Asynchronous File Upload](https://github.com/teochewthunder/asynchronous-file-upload), except that we also include something to ascertain that the file uloaded is a valid image file.
+This little app uses PHP for file upload. The details are similar to the repository in [Asynchronous File Upload](https://github.com/teochewthunder/asynchronous-file-upload), except that we also include something to ascertain that the file uploaded is a valid image file.
 
 The CSS is interpersed with PHP code variables which will use:
 - *colinkaepernick.jpg* as the default image background
