@@ -10,5 +10,4 @@ The CSS is interpersed with PHP code variables which will use:
 
 Upon a `POST`, the form gets the new first line, second line and slogan. Then it processes the image file and stores it in the `uploads` directory. The div, id `memeContainer` will render the image in grayscale and position the words within.
 
-***Note**
-This does not work in Safari's earlier versions. While the upload performs just fine. the image is not rendered in grayscale.*
+***Note**: This does not work in Safari's earlier versions. While the upload performs just fine. the image is not rendered in grayscale.*
